@@ -16,6 +16,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ImageBasedMappingData.msg"
   "msg/GeoreferencedStereoImage.msg"
+  "msg/ObjectLocalizationInfo.msg"
   DEPENDENCIES std_msgs sensor_msgs geometry_msgs
 )
 

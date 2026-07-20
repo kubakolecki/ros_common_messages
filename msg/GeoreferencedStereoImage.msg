@@ -2,3 +2,6 @@ geometry_msgs/PoseStamped pose
 sensor_msgs/Image image_left
 sensor_msgs/Image image_right
 sensor_msgs/PointCloud sparse_depth_information
+std_msgs/Float64MultiArray camera_matrix_left
+std_msgs/Float64MultiArray camera_matrix_right
+std_msgs/Float64MultiArray right_to_left_transformation_matrix

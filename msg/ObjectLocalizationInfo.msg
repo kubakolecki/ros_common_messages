@@ -1,0 +1,9 @@
+uint32 object_class_id
+float32 confidence_score
+float32 bearing_vector_x
+float32 bearing_vector_y
+float32 bearing_vector_z
+float32 min_depth
+float32 max_depth
+float32 mean_depth
+

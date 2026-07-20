@@ -4,6 +4,7 @@ float32[] depth_map_right_row_major
 bool has_right_depth_map
 sensor_msgs/PointCloud sparse_depth_information
 uint16[] list_of_classes
+float32[] confidence_scores
 uint16[] image_segmented_by_classes
 uint32 rows
 uint32 columns
