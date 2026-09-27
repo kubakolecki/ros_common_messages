@@ -8,7 +8,7 @@ to build following ROS2 packages:
 [slam_deep_mapper](https://github.com/kubakolecki/slam_deep_mapper)
 
 ## Requirements
-Building and using of messages defined in this ROS2 package was tested with Linux, ROS2 Jazzy and CMake version >= 4.2
+Building and using of messages defined in this ROS2 package was tested with Linux, ROS2 Jazzy and CMake version >= 3.20
 
 ## Building
 I assume you already have your ROS2 worksapce. In the workspace you should have your packages located in the `src` directory, which is a standard way to organize ROS2 workspace.
