@@ -27,7 +27,7 @@ infer depth maps for left image. The ImageBasedMappingData message published by 
 Both messages contain `sensor_msgs/PointCloud sparse_depth_information` field which is used to provide sparse depth. The way the sparse depth is stored as a PointCloud is as follows:  
 - x and y coordinates correspond to column/row pixel location of a map point in the left image  
 - z coordinate corresponds to depth of a map point (in meters)
-- the uncertainty of map points is written in a `channel[0]`
+- the uncertainty of depth is written in a `channel[0]`
 
 NEU-DEPTH does not require filling following fields:`pose` 
 `camera_matrix_left`, `camera_matrix_right`, `right_to_left_transformation_matrix`. Those are used in some other tests.
