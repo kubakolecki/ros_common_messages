@@ -26,7 +26,7 @@ The GeoreferencedStereoImage message is used as an input message in [slam_deep_m
 infer depth maps for left image. The ImageBasedMappingData message published by [slam_deep_mapper](https://github.com/kubakolecki/slam_deep_mapper) and subscribed by [depth_map_optimizer](https://github.com/kubakolecki/depth_map_optimizer)
 Both messages contain `sensor_msgs/PointCloud sparse_depth_information` field which is used to provide sparse depth. The way the sparse depth is stored as a PointCloud is as follows:  
 - x and y coordinates correspond to column/row pixel location of a map point in the left image  
-- z coordinate corresponds to depth of a map point  
+- z coordinate corresponds to depth of a map point (in meters)
 - the uncertainty of map points is written in a `channel[0]`
 
 NEU-DEPTH does not require filling following fields:`pose` 
